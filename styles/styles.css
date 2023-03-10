@@ -1,0 +1,63 @@
+
+    form{
+        border-radius: 25px;
+        border-width: medium;
+        border-style: double;
+        text-align: center;
+        padding: 30px;
+        background-color: #1a1a1a; /* color de fondo oscuro */
+        color: #fff; /* color de texto blanco */
+        font-family: Arial, sans-serif; /* cambiar la fuente */
+    }
+    
+    label{
+        float:left;
+        clear:both;
+        font-family: 'Roboto', sans-serif; /* cambiar la fuente */
+        font-size: 16px; /* aumentar el tamaño de la fuente */
+        margin-bottom: 10px; /* agregar un margen inferior */
+    }
+    
+    input[type="text"], input[type="password"]{
+        float:right;
+        font-size: 18px; /* aumentar el tamaño de la fuente */
+        padding: 10px; /* aumentar el tamaño del campo de entrada */
+        border-radius: 5px; /* agregar un borde redondeado */
+        border: none; /* eliminar el borde */
+        background-color: #f2f2f2; /* agregar un fondo claro */
+        margin-bottom: 20px; /* agregar un margen inferior */
+        width: 100%; /* hacer que el campo de entrada ocupe todo el ancho disponible */
+    }
+    
+    input[type="submit"]{
+        clear:both;
+        display:block;
+        margin: 0 auto; /* centrar horizontalmente */
+        width: 200px; /* aumentar el ancho del botón */
+        height: 40px; /* aumentar la altura del botón */
+        border: none; /* eliminar el borde */
+        border-radius: 5px; /* agregar un borde redondeado */
+        font-family: 'Roboto', sans-serif; /* cambiar la fuente */
+        font-size: 16px; /* aumentar el tamaño de la fuente */
+        background-color: #007bff;
+        color: #fff;
+        cursor: pointer; /* cambiar el cursor al pasar por encima */
+    }
+    
+    input[type="submit"]:hover{
+        background-color:  #fff;/* cambiar el color de fondo al pasar por encima */
+        color: #1a1a1a;  /* cambiar el color del texto al pasar por encima */
+    }
+    
+    #mensajesErrores {
+        padding: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 200px; /* aumentar la altura */
+        color: red; /* cambiar el color del texto */
+        font-family: 'Roboto', sans-serif; /* cambiar la fuente */
+        font-size: 16px; /* aumentar el tamaño de la fuente */
+        background-color: #f2f2f2; /* agregar un color de fondo */
+    }
+    

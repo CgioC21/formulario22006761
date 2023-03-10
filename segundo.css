@@ -1,0 +1,14 @@
+body {
+    background-color: #1d1f21;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 24px;
+    color: #fff;
+  }
+  
+  #respuesta {
+    background-color: #333;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+  }
+  
